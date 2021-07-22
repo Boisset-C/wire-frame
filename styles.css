@@ -1,0 +1,60 @@
+/* intro section styles section */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* body style */
+body {
+  font-family: Arimo;
+  max-width: 1440px;
+}
+
+/* header styles */
+nav {
+  background: transparent;
+}
+/* hero styles */
+.hero-background {
+  background-image: url("./assets/content/hero_image.svg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 900px; /* You must set a specified height */
+  max-width: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+/* navigation styles */
+ul {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  list-style: none;
+}
+
+#logo-link {
+  margin-top: 60px;
+  margin-left: 80px;
+}
+
+.title {
+  text-align: center;
+}
+
+.title-text {
+  text-align: center;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-button {
+  color: #ffffff;
+  background: #3c64b1;
+  border-radius: 2px;
+  width: 300px;
+  height: 65px;
+}
